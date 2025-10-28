@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Forca - Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Jogo da Forca</h1>
+    <div>
+      <label for="tema">Tema:</label>
+      <select id="tema"></select>
+      <button id="nova">Nova Palavra</button>
+    </div>
+    <p id="palavra" class="palavra"></p>
+    <p id="chutadas">Letras: -</p>
+    <p id="chances">Chances: 6</p>
+    <input id="letra" maxlength="1" placeholder="Digite uma letra" />
+    <button id="chutar">Chutar</button>
+    <div id="mensagem"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
